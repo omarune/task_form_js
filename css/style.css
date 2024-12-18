@@ -1,0 +1,26 @@
+/* Start index */
+ a span {
+font-weight: 900;
+
+}
+/* End index */
+/* Start register */
+.icon_user{
+    color: rgb(72, 72, 201);
+    position: absolute;
+    right: 20px ;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper{
+    /* width: 420px; */
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+/* End register */

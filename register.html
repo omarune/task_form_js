@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcom_BG</title>
+    <!-- all.min -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- WoW -->
+    <link rel="stylesheet" href="css/wow.css">
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row pt-5 mt-2">
+            <div class="col-md-6">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75" alt="ex">
+            </div>
+                
+                <div class="wrapper col-md-6 d-flex flex-column justify-content-center">
+                    
+                    <h3 class="mb-2 text-center">Create Account</h3>
+                    <p class="mb-4">Go ahead and sign up, let everyone 
+                        know how awesome you are!</p>
+                        <h4 id="result"></h4>
+                        <form action="created.html" onsubmit="return Donatello()">
+                            <div class="position-relative">
+                                <i class="fa-solid fa-user icon_user" ></i>
+                                <input type="text" name="user" id="user" placeholder="Enter your name" class="form-control mb-4 p-2 ">
+                            </div>
+                            <div class="position-relative">
+                                <i class="fa-solid fa-envelope icon_user" ></i>
+                                <input type="text" name="email" id="email" placeholder="Enter your E_mail" class="form-control mb-4 p-2 ">
+                            </div>
+                            <div class="position-relative">
+                                <i class="fa-solid fa-eye icon_user"  ></i>
+                                <input type="password" name="pass" id="pass" placeholder="Enter your password" class="form-control mb-4 p-2 ">
+                            </div>
+                            <div class="position-relative">
+                                <i  id="eyeicon" class="fa-solid fa-lock icon_user "   onclick="eyeicon()"></i>
+                                <input type="password" name="confirm" id="confirm" placeholder="Confirm password" class="form-control mb-4 p-2 ">
+                            </div>
+                            <input type="submit" value="Create New Account" class="btn btn-primary form-control " id="send">
+                        </form>
+                    </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- all.min -->
+    <script src="Js/all.min.js"></script>
+    <!-- bootstrap -->
+    <script src="Js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="Js/jquery.slim.min.js"></script>
+    <!-- MDB -->
+    <script src="Js/mdb.umd.min.js"></script>
+    <!-- popper -->
+    <script src="Js/popper.min.js"></script>
+    <!-- WoW -->
+    <script src="Js/wow.min.js"></script>
+    <!-- Main -->
+    <script src="Js/main.js"></script>
+</body>
+</html>
